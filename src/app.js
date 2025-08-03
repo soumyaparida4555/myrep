@@ -57,7 +57,7 @@ const bRouter=createBrowserRouter([
          ,
          {
             path:"/about",
-            element: <Suspense fallback={<div>Loading...</div>}><About/></Suspense>
+            element: <Suspense fallback={<div>Loading............</div>}><About/></Suspense>
          }
 
        ]
